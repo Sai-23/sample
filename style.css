@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=Smooch&family=Work+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/************************************* HEADER PART *************************************************/
+.maincontainer {
+    min-height: calc(100vh -6vh -6vh);
+
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+    color: aquamarine;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 0px 500px 0px 30px;
+}
+
+header h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.whatsapp {
+    padding: 0px 23px 0px 444px;
+
+
+}
+
+.whatsapp a {
+    display: flex;
+    text-decoration: none;
+    border: 3px solid white;
+    color: aquamarine;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whatsapp a:hover {
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
+/************************************* MAIN PART *************************************************/
+.maincontainer {
+    background-color: azure;
+
+}
+
+.AIImage {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    padding: 15px 0px;
+}
+
+.AIImage img {
+    background-size: 100% 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.info {
+    margin: 11px 287px;
+}
+
+.info h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.info p {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.key-highlights {
+    padding: 5vh 8vh 0vh 8vh;
+    text-align: center;
+    margin: 22px 38px;
+}
+
+.key-highlights h1 {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: start;
+    background-color: lightseagreen;
+    margin: 0px 40px;
+    padding: 23px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+}
+
+.box img {
+    background-color: white;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.box h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 13px 0px 7px 0px;
+    font-size: 23px;
+
+}
+
+.box p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 76px 0px;
+
+}
+
+.certificate img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.certificate h1 {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+
+}
+
+.certificate p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    padding-bottom: 40px;
+}
+
+.testemonial {
+    padding-top: 23px;
+    margin: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.testemonial h2 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.testemonial p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    padding-bottom: 7px;
+}
+
+.card-container {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-content: center;
+
+    border: 2px solid black;
+}
+
+.card {
+    padding: 25px;
+    margin: 30px;
+    background: #fff3f3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.card img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card h3 {
+    padding-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card p {
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.glimpse-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 384px;
+    padding-top: 60px;
+}
+
+.glimpse-container h2 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.glimpse-container p {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 12px;
+
+}
+
+.glimpse-slider {
+
+    height: 70vh;
+    width: 50vw;
+
+    background-image: url(slide1.png);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-size: 100% 100%;
+    animation: imgSlide 12s 2s linear infinite;
+    margin-bottom: 60px;
+}
+
+@keyframes imgSlide {
+    0% {
+        background-image: url(slide1.png);
+    }
+
+    25% {
+        background-image: url(slide2.png);
+    }
+
+    50% {
+        background-image: url(slide3.png);
+    }
+
+    75% {
+        background-image: url(slide4.png);
+    }
+
+    100% {
+        background-image: url(slide5.png);
+    }
+}
+
+
+
+
+
+
+
+
+/************************************* FOOTER PART *************************************************/
+
+
+.copyright {
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.copyright hr {
+    background-color: aqua;
+}
